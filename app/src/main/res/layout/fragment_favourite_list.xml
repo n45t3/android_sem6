@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_menu_camera"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="19dp"
+        android:id="@+id/imageView8"
+        android:layout_x="29dp"
+        android:layout_y="22dp" />
+
+    <TextView
+        android:text="Release date: 10.07.2005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textSize="14sp"
+        android:layout_x="29dp"
+        android:layout_y="67dp" />
+
+    <TextView
+        android:text="Game Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:textSize="18sp"
+        android:layout_x="89dp"
+        android:layout_y="25dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_delete"
+        android:layout_x="339dp"
+        android:layout_y="18dp"
+        android:id="@+id/imageView4" />
+
+    <TextView
+        android:text="PC, Xbox, PS3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView13"
+        android:textSize="14sp"
+        android:layout_x="247dp"
+        android:layout_y="68dp" />
+
+</AbsoluteLayout>
