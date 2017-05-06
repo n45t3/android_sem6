@@ -13,5 +13,5 @@ import retrofit2.http.Query;
 
 public interface ApiInterface {
     @GET("games")
-    Call<GamesResponse> getGames(@Query("format") String format, @Query("api_key") String apiKey);
+    Call<GamesResponse> getGames(@Query("filter") String filter, @Query("sort") String sort, @Query("format") String format, @Query("api_key") String apiKey);
 }
