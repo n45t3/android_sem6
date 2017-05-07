@@ -20,7 +20,6 @@ public class RequestManager {
 
     public void getGames(String gameName, int platformId, String afterDate, String sortField, String sortDirection){
         // sortDirection = asc | desc
-        ///filter=name:{gameName},platforms:{platform},original_release_date:{afterDate}|2100-01-01&sort={sortField}:{sortDirection}&format={format}&api_key={api_key}
         Call<GamesResponse> call = apiService.getGames("name:"+gameName+",platforms:"+platformId+",original_release_date:"+afterDate+"|2100-01-01",
                 sortField+":"+sortDirection,ApiClient.FORMAT, ApiClient.API_KEY);
         //String url = call.request().url().toString();
